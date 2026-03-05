@@ -17,5 +17,6 @@ class Paciente:
         print("Insira sua idade: ")
         self.idade = int(input())
         print("possui deficiência? (s/n): ")
-        pcd_input = input().lower()
-        self.pcd = True if pcd_input == "s" else False
+        self.pcd = input().lower()
+        
+
