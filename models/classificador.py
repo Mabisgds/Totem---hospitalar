@@ -1,5 +1,5 @@
 
-from paciente import Pacientes
+from models.paciente import Pacientes
 
 class Classificador:
     def __init__(self, ficha):

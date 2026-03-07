@@ -1,4 +1,4 @@
-from paciente import Pacientes
+from models.paciente import Pacientes
 class triagem:
      def emergencia(self):
          print(f"Paciente: {Pacientes.nome},\n"
