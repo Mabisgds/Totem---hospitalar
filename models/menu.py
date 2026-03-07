@@ -28,5 +28,3 @@ class Menu:
                 print("Opção inválida")
 
 
-menu = Menu()
-menu.executar()
